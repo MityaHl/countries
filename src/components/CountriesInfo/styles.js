@@ -2,7 +2,7 @@ import { StyleSheet } from 'aphrodite'
 
 export default StyleSheet.create({
   image: {
-    width: '300px',
+    width: '20%',
     height: 'auto',
   },
   grid: {
@@ -12,6 +12,6 @@ export default StyleSheet.create({
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    width: 'calc(100% - 300px)'
+    width: '80%'
   },
 })
