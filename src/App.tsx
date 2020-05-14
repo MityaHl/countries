@@ -1,7 +1,7 @@
 import React from 'react'
 import { ApolloProvider } from 'react-apollo'
 import ApolloClient from 'apollo-boost'
-import AppWithData from './Query'
+import Countries from './components/Countries/component'
 
 const client = new ApolloClient({
   uri: 'https://countries-274616.ew.r.appspot.com/',
@@ -10,7 +10,7 @@ const client = new ApolloClient({
 const App = () => (
   <ApolloProvider client={client}>
     <div className="App">
-      <AppWithData />
+      <Countries />
     </div>
   </ApolloProvider>
 )
